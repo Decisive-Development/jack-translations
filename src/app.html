@@ -18,15 +18,19 @@
 		<meta property="og:url" content="https://chamberlainuebersetzung.com" />
 		<meta property="og:type" content="website" />
 		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
-			gtag('config', 'G-3NPEM8KRCL', {
-				'send_page_view': false,
-				'transport_type': 'beacon'
+			window.addEventListener('load', () => {
+				window.dataLayer = window.dataLayer || [];
+				function gtag(){dataLayer.push(arguments);}
+				gtag('js', new Date());
+				gtag('config', 'G-3NPEM8KRCL', {
+					'transport_type': 'beacon'
+				});
+
+				const script = document.createElement('script');
+				script.src = 'https://www.googletagmanager.com/gtag/js?id=G-3NPEM8KRCL';
+				document.head.appendChild(script);
 			});
 		</script>
-		<script defer src="https://www.googletagmanager.com/gtag/js?id=G-3NPEM8KRCL"></script>
 	</head>
 	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents">%sveltekit.body%</div>
