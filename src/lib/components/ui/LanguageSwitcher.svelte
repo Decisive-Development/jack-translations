@@ -12,13 +12,13 @@
 	}
 </script>
 
-<div class="flex space-x-2">
+<div class="flex space-x-2 w-fit absolute top-24 left-3 z-50 mx-auto">
 	{#each languages as { code, label }}
 		<button
-			class="rounded-md border border-gray-300 px-4 py-2 transition-colors hover:bg-gray-100 {$language ===
+			class="rounded-md border border-theme-dark px-4 py-2 transition-colors  {$language ===
 			code
-				? 'bg-gray-800 text-white hover:bg-gray-700'
-				: 'bg-white text-gray-800'}"
+				? 'bg-theme-primary text-theme-light hover:bg-theme-dark'
+				: 'bg-thetext-theme-light hover:bg-theme-gray'}"
 			on:click={() => switchLanguage(code)}
 		>
 			{label}

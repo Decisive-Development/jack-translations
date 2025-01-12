@@ -36,7 +36,7 @@
 
 <section id="services" class="bg-theme-gray py-32">
 	<div class="container mx-auto px-6 md:px-12 lg:px-16">
-		<h2 class="text-center text-3xl font-bold text-gray-800 md:text-4xl">What I Offer</h2>
+		<h2 class="text-center text-3xl font-bold  md:text-4xl">What I Offer</h2>
 		<p class="text-th mt-4 text-center text-lg">
 			As a professional German-to-English translator, I provide specialised services designed to
 			meet your unique needs:
@@ -49,7 +49,7 @@
 			{/each}
 		</div>
 
-		<p class="mt-12 text-center text-lg text-gray-600">
+		<p class="mt-12 text-center text-lg ">
 			Each translation is tailored to reflect your goals while maintaining accuracy.
 		</p>
 	</div>

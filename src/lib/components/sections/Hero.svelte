@@ -1,6 +1,5 @@
 <script>
 	import Button from '$lib/components/ui/Button.svelte';
-    import LanguageSwitcher from '$lib/components/ui/LanguageSwitcher.svelte';
     import { language } from '$lib/stores/language';
     import { translations } from '$lib/i18n/translations';
 </script>
@@ -24,8 +23,7 @@
 			<Button 
                 href="#contact" 
                 text={translations[$language].hero.buttonText}
-            />
-            <LanguageSwitcher />
+            />            
 		</div>
 	</div>
 </section>

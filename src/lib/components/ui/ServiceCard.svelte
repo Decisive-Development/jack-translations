@@ -9,7 +9,7 @@
 	<h3 class="text-theme-dark text-xl font-semibold">
     {title}
   </h3>
-	<p class="mt-2 text-gray-600">
+	<p class="mt-2 ">
     {description}
   </p>
 </div>

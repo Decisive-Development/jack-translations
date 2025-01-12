@@ -1,7 +1,7 @@
 <script>
 	import '../app.css';
 	import Nav from '$lib/components/nav/Nav.svelte';
-	import Footer from '$lib/components/footer/Footer.svelte';
+	import Footer from '$lib/components/footer/Footer.svelte';    
     import { language } from '$lib/stores/language';
     import { onMount } from 'svelte';
 
