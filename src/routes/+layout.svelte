@@ -13,31 +13,15 @@
 			language.set('en');
 		}
 
-		const loadGTM = () => {
-			if (!window.dataLayer) {
-				window.dataLayer = [];
-			}
-			const gtag = function() {
-				window.dataLayer.push(arguments);
-			}
-			gtag('js', new Date());
-			gtag('config', 'G-3NPEM8KRCL', {
-				'transport_url': 'https://www.googletagmanager.com',
-				'transport_type': 'beacon'
-			});
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'G-3NPEM8KRCL');
 
-			const script = document.createElement('script');
-			script.async = true;
-			script.defer = true;
-			script.src = 'https://www.googletagmanager.com/gtag/js?id=G-3NPEM8KRCL';
-			document.head.appendChild(script);
-		};
-
-		if (document.readyState === 'complete') {
-			loadGTM();
-		} else {
-			window.addEventListener('load', loadGTM);
-		}
+		const script = document.createElement('script');
+		script.defer = true;
+		script.src = 'https://www.googletagmanager.com/gtag/js?id=G-3NPEM8KRCL';
+		document.head.appendChild(script);
 	});
 </script>
 
