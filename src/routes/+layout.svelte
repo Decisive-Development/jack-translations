@@ -12,16 +12,6 @@
 		} else if (hostname.includes('chamberlaintranslation.com')) {
 			language.set('en');
 		}
-
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-		gtag('config', 'G-3NPEM8KRCL');
-
-		const script = document.createElement('script');
-		script.defer = true;
-		script.src = 'https://www.googletagmanager.com/gtag/js?id=G-3NPEM8KRCL';
-		document.head.appendChild(script);
 	});
 </script>
 
