@@ -34,8 +34,9 @@
 						alt="Logo" 
 						width="388"
 						height="50"
-						class="sm:h-[50px] sm:w-[388px] h-[38px] w-[280px]"
+						class="sm:h-[50px] sm:w-[388px] h-[42px] w-[328px]"
 					/>
+
 				</picture>
 			</a>			
 			<div class="flex items-center space-x-6">
