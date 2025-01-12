@@ -34,22 +34,22 @@
 	];
 </script>
 
-<section id="services" class="bg-theme-gray py-32">
+<section id="services" class="bg-theme-gray py-16 md:py-32">
 	<div class="container mx-auto px-6 md:px-12 lg:px-16">
-		<h2 class="text-center text-3xl font-bold  md:text-4xl">What I Offer</h2>
+		<h2 class="text-center text-3xl font-bold md:text-4xl">
+			What I Offer
+		</h2>
 		<p class="text-th mt-4 text-center text-lg">
 			As a professional German-to-English translator, I provide specialised services designed to
 			meet your unique needs:
 		</p>
 		<div class="mx-auto my-8 h-1 w-24 bg-theme-accent"></div>
-		<!-- Services Grid -->
 		<div class="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
 			{#each services as service}
-				<ServiceCard title={service.title} description={service.description} />
+				<ServiceCard title={service.title} description={service.description}/>
 			{/each}
 		</div>
-
-		<p class="mt-12 text-center text-lg ">
+		<p class="mt-12 text-center text-lg">
 			Each translation is tailored to reflect your goals while maintaining accuracy.
 		</p>
 	</div>

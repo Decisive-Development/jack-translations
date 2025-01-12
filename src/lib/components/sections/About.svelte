@@ -2,18 +2,19 @@
     import CheckListItem from '$lib/components/ui/CheckListItem.svelte';
 </script>
 
-<section id="about" class="bg-theme-light py-32">
+<section id="about" class="bg-theme-light py-16 md:py-32">
 	<div class="container mx-auto px-6 md:px-12 lg:px-16">
-		<h2 class="text-center text-3xl font-bold  md:text-4xl">
+		<h2 class="text-center text-3xl font-bold md:text-4xl">
             About Me
         </h2>
 		<div class="mt-6 items-center gap-8 grid grid-cols-3 mb-16">
 			<img
 				src=""
 				alt="Jack Chamberlain"
-				class="h-40 w-40 rounded-full object-cover shadow-lg md:h-48 md:w-48 col-span-1"
+				loading="lazy"
+				class="h-40 w-40 rounded-full object-cover shadow-lg md:h-48 md:w-48 col-span-3 sm:col-span-1 mx-auto"
 			/>
-			<p class="text-lg leading-relaxed  md:text-xl col-span-2">
+			<p class="text-lg leading-relaxed md:text-xl col-span-3 sm:col-span-2">
 				Hello! I’m <span class="font-semibold text-theme-accent">Jack Chamberlain</span>, offering
 				professional German-to-English translation services tailored to your needs. As a native
 				English-speaking translator with over 10 years of experience living in Austria, I ensure
@@ -21,9 +22,8 @@
 			</p>
 		</div>
 		<div class="grid items-start gap-12 md:grid-cols-2">
-			<!-- Left Column: Why Choose Me -->
 			<div class="flex flex-col">
-				<h3 class="mb-4 text-2xl font-semibold ">
+				<h3 class="mb-4 text-2xl font-semibold">
                     Why Choose Me?
                 </h3>
 				<ul class="space-y-4">

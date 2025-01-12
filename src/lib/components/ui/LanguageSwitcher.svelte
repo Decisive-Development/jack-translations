@@ -12,7 +12,7 @@
 	}
 </script>
 
-<div class="flex space-x-2 w-fit absolute top-24 left-3 z-50 mx-auto">
+<div class="flex space-x-2 w-fit absolute top-32 left-3 z-50 mx-auto">
 	{#each languages as { code, label }}
 		<button
 			class="rounded-md px-4 py-2 transition-colors ease-in-out duration-300 {$language ===

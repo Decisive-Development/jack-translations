@@ -9,22 +9,35 @@
 	];
 </script>
 
-<section class=" w-full sticky top-0 z-50">
+<section class="w-full sticky top-0 z-50">
 	<div class="bg-theme-primary">
-		<nav class="container flex items-center justify-between p-4">
+		<nav class="container flex flex-col items-center justify-between p-4">
 			<a 
 				href="/" 
-				class="text-xl font-bold"
+				class="text-xl font-bold mb-2"
 			>
-				<img 
-					src="/images/logo-white.webp" 
-					alt="Logo" 
-					height="50"
-					width="388"
-					class="h-[50px] w-[388px]"
-				/>
+				<picture>
+					<source
+						media="(min-width: 640px)"
+						srcset="/images/logo-white.webp"
+						width="388"
+						height="50"
+					/>
+					<source
+						media="(max-width: 639px)"
+						srcset="/images/logo-white.webp"
+						width="330"
+						height="43"
+					/>
+					<img 
+						src="/images/logo-white.webp" 
+						alt="Logo" 
+						width="388"
+						height="50"
+						class="sm:h-[50px] sm:w-[388px] h-[38px] w-[280px]"
+					/>
+				</picture>
 			</a>			
-			
 			<div class="flex items-center space-x-6">
 				{#each navItems as { href, label }}
 					<NavLink {href} {label} />

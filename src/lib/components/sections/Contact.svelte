@@ -1,21 +1,21 @@
-<section id="contact" class="bg-theme-gray py-32">
+<section id="contact" class="bg-theme-gray py-16 md:py-32">
 	<div class="container mx-auto px-6 md:px-12 lg:px-16">
-		<h2 class="text-center text-3xl font-bold  md:text-4xl">
+		<h2 class="text-center text-3xl font-bold md:text-4xl">
 			Get in Touch
 		</h2>
-		<p class="mt-4 text-center text-lg leading-relaxed  md:text-xl">
+		<p class="mt-4 text-center text-lg leading-relaxed md:text-xl">
 			Ready to bring your German content to life in English? I’d love to hear from you! 
 		</p>
 		<p class="text-center text-lg leading-relaxed  md:text-xl">
 			Whether you’re ready to start a project or just have a question, feel free to reach out.
 		</p>
-		<div class="mt-12 grid grid-cols-2 justify-center ">
-			<div class="w-fit mx-auto">
+		<div class="mt-12 grid grid-cols-1 gap-10 sm:grid-cols-2 justify-center">
+			<div class="w-full sm:w-fit mx-auto">
 				<div>
-					<h3 class="mb-4 text-2xl font-semibold ">
+					<h3 class="mb-4 text-2xl font-semibold">
 						Contact Details
 					</h3>
-					<ul class="space-y-4 ">
+					<ul class="space-y-4">
 						<li class="flex items-center">
 							<svg
 								class="mr-3 h-5 w-5 text-theme-accent"
@@ -73,7 +73,7 @@
 					</ul>
 				</div>
 			</div>
-			<div class="w-fit mx-auto">
+			<div class="w-full sm:w-fit mx-auto">
 				<h3 class="mb-4 text-2xl font-semibold ">
 					Connect with Me
 				</h3>
