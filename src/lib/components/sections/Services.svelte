@@ -41,7 +41,7 @@
 			As a professional German-to-English translator, I provide specialised services designed to
 			meet your unique needs:
 		</p>
-		<div class="mx-auto my-8 h-1 w-24 bg-blue-500"></div>
+		<div class="mx-auto my-8 h-1 w-24 bg-theme-accent"></div>
 		<!-- Services Grid -->
 		<div class="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
 			{#each services as service}

@@ -5,7 +5,7 @@
 
 <li class="flex items-start">
 	<svg
-		class="mr-3 h-6 w-6 flex-shrink-0 text-blue-500"
+		class="mr-3 h-6 w-6 flex-shrink-0 text-theme-accent"
 		xmlns="http://www.w3.org/2000/svg"
 		fill="none"
 		viewBox="0 0 24 24"

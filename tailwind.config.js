@@ -18,7 +18,7 @@ export default {
 						},
 						// accent: '#33A1FD',
 						// accent: '#17BEBB',
-						// accent: '#B80C09',
+						accent: '#B80C09',
 						// accent: '#ff6f61',
 
 					}

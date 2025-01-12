@@ -1,6 +1,7 @@
 <script>
     import CheckListItem from '$lib/components/ui/CheckListItem.svelte';
 </script>
+
 <section id="about" class="bg-theme-light py-32">
 	<div class="container mx-auto px-6 md:px-12 lg:px-16">
 		<h2 class="text-center text-3xl font-bold  md:text-4xl">
@@ -13,7 +14,7 @@
 				class="h-40 w-40 rounded-full object-cover shadow-lg md:h-48 md:w-48 col-span-1"
 			/>
 			<p class="text-lg leading-relaxed  md:text-xl col-span-2">
-				Hello! I’m <span class="font-semibold text-blue-500">Jack Chamberlain</span>, offering
+				Hello! I’m <span class="font-semibold text-theme-accent">Jack Chamberlain</span>, offering
 				professional German-to-English translation services tailored to your needs. As a native
 				English-speaking translator with over 10 years of experience living in Austria, I ensure
 				your message is conveyed accurately and effectively.

@@ -9,7 +9,7 @@
 		<h1 class="text-4xl font-bold leading-tight md:text-6xl">
 			{translations[$language].hero.welcome} <span class="text-theme-secondary">{translations[$language].hero.name}</span>
 		</h1>
-		<div class="bg-theme-dark mx-auto my-8 h-1 w-24"></div>
+		<div class="bg-theme-accent mx-auto my-8 h-1 w-24"></div>
 		<p class="mt-6 text-lg leading-relaxed md:text-xl">
 			{translations[$language].hero.tagline}
 		</p>
