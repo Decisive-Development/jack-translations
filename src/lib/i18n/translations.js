@@ -1,5 +1,11 @@
 export const translations = {
     en: {
+        metadata: {
+            title: "Chamberlain Translation",
+            description: "Expert German-to-English translation services by Jack Chamberlain. Perfect for businesses, publications, creatives, and academics. Accurate, engaging, and tailored to your needs.",
+            ogTitle: "Chamberlain Translation - Professional German-to-English Translation Services",
+            ogDescription: "Transform your German content into precise and engaging English with expert translation services tailored for businesses, creatives, and academics."
+        },        
         hero: {
             welcome: "Welcome to",
             name: "Jack Chamberlain Translation Services",
@@ -126,7 +132,13 @@ export const translations = {
             terms: "Terms & Conditions"
         } 
     },
-    de: {        
+    de: {    
+        metadata: {
+            title: "Chamberlain Übersetzung",
+            description: "Professionelle Deutsch-Englisch Übersetzungen von Jack Chamberlain. Ideal für Unternehmen, Publikationen, Kreative und Akademiker. Präzise, ansprechend und auf Ihre Bedürfnisse zugeschnitten.",
+            ogTitle: "Chamberlain Übersetzung - Professionelle Deutsch-Englisch Übersetzungsdienste",
+            ogDescription: "Verwandeln Sie Ihre deutschen Texte in präzises und ansprechendes Englisch mit professionellen Übersetzungsdiensten für Unternehmen, Kreative und Akademiker."
+        },    
         hero: {
             welcome: "Willkommen bei",
             name: "Jack Chamberlain Übersetzungsdienste",
