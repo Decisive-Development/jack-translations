@@ -6,7 +6,9 @@
 <footer class="bg-theme-primary text-theme-light">
 	<div class="container flex flex-col items-center justify-between p-4">
 		<div class="flex gap-4">
-			<a href="/policy" class="hover:underline"> Terms & Conditions </a>
+			<a href="/policy" class="hover:underline">
+                {translations[$language].footer.terms}
+            </a>
 		</div>
 	</div>
 </footer>

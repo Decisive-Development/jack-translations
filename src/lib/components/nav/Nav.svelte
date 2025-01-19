@@ -1,11 +1,15 @@
 <script>
 	import NavLink from './NavLink.svelte';		
+	import { translations } from '$lib/i18n/translations';
+	import { language } from '$lib/stores/language';
+	
 	const navItems = [
-		{ href: '/', label: 'Home' },
-		{ href: '#services', label: 'Services' },
-		{ href: '#about', label: 'About' },
-		{ href: '#contact', label: 'Contact' }
+		{ href: '/', label: translations[$language].nav.home },
+		{ href: '#services', label: translations[$language].nav.services },
+		{ href: '#about', label: translations[$language].nav.about },
+		{ href: '#contact', label: translations[$language].nav.contact }
 	];
+
 </script>
 
 <section class="w-full sticky top-0 z-50">
@@ -38,10 +42,11 @@
 
 				</picture>
 			</a>			
-			<div class="flex items-center space-x-6">
-				{#each navItems as { href, label }}
-					<NavLink {href} {label} />
-				{/each}
+			<div class="flex items-center underline-offset-4 space-x-6 text-theme-light">
+				<a class="hover:underline" href="/">{translations[$language].nav.home}</a>
+				<a class="hover:underline" href="#services">{translations[$language].nav.services}</a>
+				<a class="hover:underline" href="#about">{translations[$language].nav.about}</a>
+				<a class="hover:underline" href="#contact">{translations[$language].nav.contact}</a>
 			</div>
 		</nav>
 	</div>	

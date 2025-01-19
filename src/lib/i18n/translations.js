@@ -37,6 +37,12 @@ export const translations = {
                 description: "Need a quick turnaround? I offer expedited translation services to meet tight deadlines without sacrificing quality."
             }
         },
+        nav: {
+            home: "Home",
+            services: "Services", 
+            about: "About",
+            contact: "Contact"
+        },
         about: {
             title: "About Me",
             description: "Hello! I'm %name%, offering professional German-to-English translation services tailored to your needs. As a native English-speaking translator with over 10 years of experience living in Austria, I ensure your message is conveyed accurately and effectively.",
@@ -115,9 +121,12 @@ export const translations = {
                 title: "Contact Information",
                 content: "For any questions or concerns regarding these terms, please contact me at:",
             }
-        }        
+        },
+        footer: {
+            terms: "Terms & Conditions"
+        } 
     },
-    de: {
+    de: {        
         hero: {
             welcome: "Willkommen bei",
             name: "Jack Chamberlain Übersetzungsdienste",
@@ -154,7 +163,13 @@ export const translations = {
                 title: "Express-Service",
                 description: "Sie brauchen eine schnelle Übersetzung? Ich biete beschleunigte Übersetzungsdienste, um enge Fristen einzuhalten - ohne Kompromisse bei der Qualität."
             }
-        },        
+        },   
+        nav: {
+            home: "Startseite",
+            services: "Leistungen",
+            about: "Über mich",
+            contact: "Kontakt"
+        },     
         about: {
             title: "About Me",
             description: "Hallo! Ich bin %name%, ein professioneller Übersetzer vom Deutschen ins Englische, der sich darauf spezialisiert hat, qualitativ hochwertige Übersetzungen anzubieten. Als englischer Muttersprachler lebe ich seit 10 Jahren in Österreich. Ursprünglich stamme ich aus Stratford-upon-Avon, England, dem Geburtsort von Shakespeare. Egal, ob es sich um technische, kreative oder professionelle Inhalte handelt - ich stelle sicher, dass Ihre Botschaft präzise und wirkungsvoll ins Englische übertragen wird.",
@@ -233,6 +248,9 @@ export const translations = {
                 title: "Kontaktinformationen",
                 content: "Für Fragen oder Bedenken zu diesen Bedingungen kontaktieren Sie mich bitte unter:"
             }
-        }
+        },
+        footer: {
+            terms: "Allgemeine Geschäftsbedingungen"
+        } 
     }
 };
