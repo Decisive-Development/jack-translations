@@ -183,7 +183,7 @@ export const translations = {
             contact: "Kontakt"
         },     
         about: {
-            title: "About Me",
+            title: "Über mich",
             description: "Hallo! Ich bin %name%, ein professioneller Übersetzer vom Deutschen ins Englische, der sich darauf spezialisiert hat, qualitativ hochwertige Übersetzungen anzubieten. Als englischer Muttersprachler lebe ich seit 10 Jahren in Österreich. Ursprünglich stamme ich aus Stratford-upon-Avon, England, dem Geburtsort von Shakespeare. Egal, ob es sich um technische, kreative oder professionelle Inhalte handelt - ich stelle sicher, dass Ihre Botschaft präzise und wirkungsvoll ins Englische übertragen wird.",
             title2: "Warum mich wählen",
             item1: "*Muttersprachliche Expertise",

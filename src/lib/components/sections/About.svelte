@@ -8,7 +8,6 @@
 	<div class="container mx-auto px-6 md:px-12 lg:px-16">
 		<h2 class="text-center text-3xl font-bold md:text-4xl">
 			{translations[$language].about.title}
-            About Me
         </h2>
 		<div class="mt-6 items-center gap-8 grid grid-cols-3 mb-16">
 			<img
