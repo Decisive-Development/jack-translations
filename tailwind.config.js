@@ -16,11 +16,7 @@ export default {
 							light: '#7CC6FE',
 							dark: '#399E5A',
 						},
-						// accent: '#33A1FD',
-						// accent: '#17BEBB',
 						accent: '#B80C09',
-						// accent: '#ff6f61',
-
 					}
 				},
 				container: {
