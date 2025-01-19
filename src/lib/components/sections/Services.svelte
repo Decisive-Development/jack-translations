@@ -19,7 +19,7 @@
         <h2 class="text-center text-3xl font-bold md:text-4xl">
             {t.title}
         </h2>
-        <p class="text-theme-secondary mt-4 text-center text-lg w-[920px] mx-auto">
+        <p class="text-theme-secondary mt-4 text-center text-lg w-full lg:w-[920px] mx-auto">
             {t.subtitle}
         </p>
         <div class="mx-auto my-8 h-1 w-24 bg-theme-accent"></div>

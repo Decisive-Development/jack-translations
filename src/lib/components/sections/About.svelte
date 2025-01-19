@@ -51,7 +51,7 @@
 				</p>
 			</div>
 		</div>
-		<p class="mt-12 text-center text-lg w-[900px] mx-auto">
+		<p class="mt-12 text-center text-lg w-full lg:w-[900px] mx-auto">
 			{translations[$language].about.end}			
 		</p>
 	</div>
