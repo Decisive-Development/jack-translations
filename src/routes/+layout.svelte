@@ -3,7 +3,8 @@
 	import Nav from '$lib/components/nav/Nav.svelte';
 	import Footer from '$lib/components/footer/Footer.svelte';
 	import { language } from '$lib/stores/language';
-	import { onMount } from 'svelte';
+	import { onMount } from 'svelte';	
+    import LanguageSwitcher from '$lib/components/ui/LanguageSwitcher.svelte';
 
 	onMount(() => {
 		const hostname = window.location.hostname;
@@ -17,6 +18,7 @@
 
 <div class="flex min-h-screen flex-col">
 	<Nav />
+	<LanguageSwitcher />
 	<main class="flex-grow">
 		<slot />
 	</main>

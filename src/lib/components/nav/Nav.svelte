@@ -1,6 +1,5 @@
 <script>
 	import NavLink from './NavLink.svelte';		
-    import LanguageSwitcher from '$lib/components/ui/LanguageSwitcher.svelte';
 	const navItems = [
 		{ href: '/', label: 'Home' },
 		{ href: '#services', label: 'Services' },
@@ -45,6 +44,5 @@
 				{/each}
 			</div>
 		</nav>
-	</div>
-	<LanguageSwitcher />
+	</div>	
 </section>	
