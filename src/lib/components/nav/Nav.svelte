@@ -1,5 +1,4 @@
 <script>
-	import NavLink from './NavLink.svelte';		
 	import { translations } from '$lib/i18n/translations';
 	import { language } from '$lib/stores/language';
 	
